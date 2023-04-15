@@ -4,7 +4,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 
 
-f = open('TOKEN.txt')
+f = open('TOKEN')
 TOKEN = f.read(46)
 f.close()
 

@@ -1,6 +1,6 @@
 from itertools import count
 
-f = open('TOKEN.txt')
+f = open('TOKEN')
 TOKEN = str(f.read(90))
 numb = 0
 for i in TOKEN:
